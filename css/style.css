@@ -1,0 +1,766 @@
+@media (min-width: 250px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px;
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        top: 0;
+        z-index: 9;
+        background-color: #1e1e22;
+        
+       
+    }
+
+    .whats {
+       display: flex;
+        position: fixed;
+        top: 550px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 10px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: rgba(0, 128, 0, 0.555);
+        font-size: 29px;
+        color: #fff;
+        z-index: 1000;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    header p {
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header img {
+    width: 70px;
+    margin-left: 10px;
+    }
+    header i {
+        font-size: 30px;
+        margin-right: 10px;
+        color: #ffffff;
+    }
+
+  
+
+    .slider {
+        width: 100%;
+        margin-top: 60px;}
+
+    
+
+    .btnImg img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;   
+    }
+
+    .btnImg button {
+        width: 170px;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 45px;
+        font-weight: bold;
+        color: #e9e9e9;
+        background-color: #ff3b7c;
+    }
+  
+    .arrows {
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        padding: 10px 10px 5px;
+        box-sizing: border-box;
+        
+    }
+
+    .arrows i {
+        font-size: 30px;
+        opacity: 0.4;
+        color: #e96309;
+        margin-bottom: 20px;
+
+    }
+
+  
+ 
+  
+
+
+  
+
+
+
+    .duvidas {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        padding: 20px;
+        gap: 10px;
+        margin-bottom: 150px;
+    }
+
+    .duvidas h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+    }
+
+    .duvidas summary {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 5px;
+        color: #1e1e22;
+    }
+
+
+    .duvidas hr {
+        background-color: #066fb9;
+        color: #0F9AFE;
+    }
+
+    .duvidas p {
+        color: #151515;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+         
+    .textdetails {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        padding: 20px;
+    }
+   
+
+    .logo {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+        gap: 6px;
+    }
+
+    .capa h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        color: #fff;
+    }
+
+    .links a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .capa .btn {
+        height: 32px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        width: 144px;
+        margin-top: 20px;
+        background-color: #0F9AFE;
+        color: #fff;
+        padding: 8px, 16px, 8px, 16px;
+    }
+
+    .capa img {
+        width: 210px;
+        height: 183px;
+        margin-left: 50px;
+    }
+
+    .icones {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .icones h3 {
+        font-size: 24px;
+        font-family: arial;
+    }
+
+    .opcoes {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+       
+       padding: 19px;
+        text-align: center;
+    }
+
+    .opcoes h3 {
+        font-size: 16px;
+    }
+
+    .opcoes i {
+        font-size: 48px;
+        color: #0F9AFE;
+        transform: translateY(0px);
+        animation: float 2s ease-in-out infinite;
+        
+    }
+
+    @keyframes float {
+        0% {
+            transform: translateY(0px);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+
+
+        0% {
+            transform: translateY(0px);
+        }
+    }
+
+    
+
+    .app {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    
+        background-color: #998f8a;
+        justify-content: center;
+        gap: 10px;
+        padding: 40px;
+    }
+
+    .app ul, li {
+        text-decoration: none;
+        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 22px;
+        font-weight: bold;
+        color: #fdfdff;
+    }
+
+    .app hr {
+        display: none;
+        color: #066fb9;
+        background-color: #f3f3f3;
+        padding: 1px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .app h3 {
+        font-family: arial;
+        font-size: 24px;
+        color:#fcfcfc;
+    }
+
+    .app p {
+        color: #ffffff;
+        font-family: arial;
+        width: 210px;
+    }
+
+    .btnApp {
+        display: flex;
+        gap: 20px;
+    }
+
+    .btnApp button {
+        width: 144px;
+        height: 32px;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        background-color: #293145;
+        color: #fff;
+    }
+
+    .btnApp img {
+        width: 150px;
+    }
+
+    .planos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .planos h3 {
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .planos p {
+        color: #6E7275;
+        font-family: arial;
+        width: 210px;
+    }
+
+   
+
+    .planosCard {
+        width: 312px;
+      
+        border-radius: 5px;
+        border: 1px solid #cccccc00;
+        box-shadow: 1px 1px 5px 10px #0000;
+        background-color: #ffffffd3;
+        padding: 10px;
+        align-items: center;
+        padding-top: 40px;
+       gap: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 40px;
+        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+
+    }
+
+    .planosCard h3, h1 {
+        color: #f5592a;
+    }
+
+    .planosCard details {
+        cursor: pointer;
+        color: #040d41;
+    }
+
+    .planosCard img {
+        width: 200px;
+    }
+
+    .planosCard button {
+        width: 216px;
+        height: 38px;
+        padding: 8px, 80px, 8px, 80px;
+        border-radius: 8px;
+        border: none;
+        font-weight: bold;
+        background-color: #070855;
+        color: #fff;
+    }
+
+    .color {
+        background-color: #293145;
+        color: #fff;
+    }
+
+    .contato {
+        height: 308px;
+        width: 100%;
+        padding: 40px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        background-color: #293145;
+        color: #fff;
+        margin-top: 40px;
+
+    }
+
+ 
+
+    .textApp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .contato h3 {
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .contato p {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 312px;
+    }
+
+    .contato input {
+        border: none;
+        border-bottom: 1px solid #ffffff;
+        width: 312px;
+        background: none;
+        color: #fff;
+        outline: none;
+    }
+
+    #open {
+     display: flex;
+     transition: all ease-in-out 0.5s;
+    }
+
+    .menuOpcoes2 {
+        display: none;
+        width: 100%;
+        height: 400px;
+        background-color: #1e1e22;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        left: 0;
+        top: 60px;
+        padding: 40px;
+    }
+
+    .menuOpcoes2 li {
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        list-style: none;
+    }
+
+    .menuOpcoes2 a {
+        text-decoration: none;
+    }
+
+    #closed {
+        display: none;
+        transition: all ease-in-out 0.5s;
+    }
+
+    #menuWay {
+        display: none;
+    }
+
+    .contato button {
+        width: 312px;
+        height: 38px;
+        padding: 8px, 32px, 8px, 32px;
+        background-color: #0F9AFE;
+        color: #fff;
+        border-radius: 8px;
+        border: 1px solid #cccccc00;
+    }
+    
+    .imgApp img{
+        display: none;
+    }
+
+    .cardPlanos {
+        width: 100%;
+        display: flex;
+        overflow: auto;
+        flex-direction: row;
+        gap: 10px;
+        padding: 40px;
+        
+    }
+
+    .sobre, .planosFooter, .clientes {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+
+    footer a  {
+        text-decoration: none;
+        color: #131313;
+        margin-top: 10px;
+    }
+
+    .redessociais {
+        padding: 10px;
+    }
+
+    .redessociais i {
+        font-size: 40px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        padding: 10px;
+        background-color: #e9e7e7;
+    }
+
+    
+}
+
+@media (min-width: 750px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header i {
+        display: none;
+    }
+    header img {
+        margin-left: 40px;
+    }
+
+    .nav, ul{
+        display: flex;
+        gap: 40px;
+        margin-right: 40px;
+    }
+    .textPlanos {
+        margin-bottom: 25px;
+    }
+
+    .textPlanos h3, #icones .h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 44px;
+    }
+
+    .slider {
+        display: none;
+    }
+    
+    .app hr {
+        color: #066fb9;
+        background-color: #f3f3f3;
+        padding: 1px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .whats {
+        display: flex;
+         position: fixed;
+         top: 580px;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+         margin-left: 10px;
+         width: 60px;
+         height: 60px;
+         border-radius: 50%;
+         background-color: rgba(0, 128, 0, 0.555);
+         font-size: 29px;
+         color: #fff;
+         z-index: 1000;
+         cursor: pointer;
+     }
+
+    ul li, a {
+        text-decoration: none;
+        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+    }
+
+    .arrows {
+        display: none;
+    }
+
+    .capa {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 230px;
+        width: 100%;
+        background: url(../img/capaDesktop.png);
+        height: 500px;
+        background-repeat: no-repeat;
+       
+    }
+
+    .textdetails {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        padding: 20px;
+    }
+
+    .duvidas {
+        display: grid;
+        grid-template-columns: repeat(3, 0.1fr);
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        padding: 20px;
+        gap: 10px;
+    } 
+
+
+    .duvidas details {
+        width: 500px;
+        cursor: pointer;
+    }
+
+    .duvidas hr {
+        display: none;
+    }
+
+    .duvidas p {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 900px;
+    }
+
+    .text .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 180px;
+        height: 60px;
+        background-color: #293145;
+        text-align: center;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+    }
+
+    .capa h3 {
+        font-size: 48px;
+    }
+
+    button, .btn {
+        cursor: pointer;
+    }
+
+    button:hover, .btn:hover {
+        background-color: #066fb9;
+    }
+
+    .capa img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .icones {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .icones {
+        
+        height: 500px;
+    }
+
+    .opcoesGrid {
+        display: grid;
+        grid-template-columns: repeat(4, 300px);
+        padding: 40px;
+       
+    }
+
+    .app {
+        display: flex;
+        flex-direction: row;
+        height: 475px;
+        gap: 40px;
+    }
+
+    .imgApp img {
+        display: flex;
+        width: 400px;
+        height: 400px;
+    }
+
+    .planos {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        box-sizing: border-box;
+        gap: 10px;
+    }
+
+    #open {
+        display: none;
+    }
+
+    .cardPlanos {
+        display: grid;
+        grid-template-columns: repeat(4, 0.1fr);
+
+     align-items: center;
+     justify-content: center;
+      
+  
+       
+        
+      
+    }
+
+    .menuOpcoes2 {
+        display: none;
+   
+    }
+
+    .textPlanos p {
+        width: 400px;
+        margin-top: 5px;
+    }
+
+    .footerOpcoes {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer {
+        display: flex;
+       flex-direction: column;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #fff
+        
+    }
+
+    
+
+  
+}
